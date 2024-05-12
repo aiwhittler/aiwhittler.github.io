@@ -5,7 +5,7 @@ AWSCognito.config.credentials = new AWS.CognitoIdentityCredentials({
 });
 
 var poolData = {
-    UserPoolId: 'us-east-1_OvNMNxb2k', // Your Cognito User Pool ID
+    UserPoolId: 'x', // Your Cognito User Pool ID
     ClientId: 'your-app-client-id' // Your Cognito App Client ID
 };
 var userPool = new AmazonCognitoIdentity.CognitoUserPool(poolData);
